@@ -10,7 +10,6 @@ function Player({ initialName, symbol }) {
 
   function handleChange(e) {
     setPlayerName(e.target.value);
-   
   }
 
   return (
