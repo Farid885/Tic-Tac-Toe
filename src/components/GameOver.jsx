@@ -1,12 +1,14 @@
 import React from 'react'
 
-function GameOver({winner}) {
+function GameOver({winner,handleRestart}) {
   return (
     <div id='game-over'>
         <h2>Game Over</h2>
-        <p>{winner} Won!</p>
+        {winner && <p>{winner} Won!</p>}
+        {!winner && <p>It`is a Draw</p>}
+        
       <p>
-         <button>Rematch</button>
+         <button  onClick={handleRestart}>Rematch</button>
 
       </p>
     </div>
