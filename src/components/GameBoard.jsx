@@ -1,10 +1,18 @@
 import React from "react";
 import { useState } from "react";
 
-
 function GameBoard({ onSelectSquare, board }) {
  
-  // const [gameBoard, setGameboard] = useState(initialGameBoard);
+
+
+
+
+
+
+
+
+
+   // const [gameBoard, setGameboard] = useState(initialGameBoard);
 
   // function handleSelectSquare(rowIndex, colIndex) {
   //   setGameboard((prevGameBoard) => {

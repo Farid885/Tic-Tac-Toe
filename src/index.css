@@ -345,3 +345,22 @@ ol {
     transform: scale(1);
   }
 }
+
+
+@media (max-width:555px) {
+
+  #game-container{
+ 
+  width: 100%;
+  }
+#game-board{
+  flex-wrap: nowrap;
+  display: flex;
+  flex-direction: row;
+  width: auto;
+}
+.player{
+  width: auto;
+}
+  
+}
